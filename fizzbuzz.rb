@@ -2,15 +2,14 @@
 # See README.md for instructions on how to do this
 def fizzbuzz(int)
   if int % 3 == 0
-    "Fizz"
-  end
+ puts   "Fizz"
 elseif int % 5 == 0 
-  "Buzz" 
-end
+ puts "Buzz" 
+  
 elseif int % 5 && 3 == 0
-  "FizzBuzz"
-end
-else anything else
-  "nil"
+ puts  "FizzBuzz"
+
+else 
+  puts "nil"
 end
 end
