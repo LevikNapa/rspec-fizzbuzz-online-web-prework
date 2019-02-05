@@ -11,5 +11,6 @@ end
 elseif int % 5 && 3 == 0
   "FizzBuzz"
 end
-else 
+else anything else
+  "nil"
 end
